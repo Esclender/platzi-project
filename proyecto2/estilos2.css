@@ -91,6 +91,11 @@ html{
 
 .submit{
     background-color: var(--hospital-green);
+    
+}
+
+.submit a{
+    text-decoration: none;
     color: var(--white);
     font-weight: bold;
 }
