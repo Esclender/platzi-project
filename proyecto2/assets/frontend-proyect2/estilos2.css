@@ -84,4 +84,8 @@ html{
     
 }
 
-
+.sign{
+    color: var(--hospital-green);
+    margin-top: 100%;
+    border: 1px solid var(--hospital-green);
+}

@@ -27,12 +27,28 @@ html{
 }
 
 .logo{
-    width: 60%;
+    width: 40%;
 }
 
 .main__container{
     padding: 2rem;
    
+}
+
+
+.recovery-message{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.recovery-message h1{
+    font-size: var(--lg);
+    margin-bottom: .8rem;
+}
+
+.recovery-message p{
+    font-size: var(--md);
+    color: var(--very-light-pink);
 }
 
 .email-input{
@@ -81,7 +97,11 @@ html{
 
 .back{
     color: var(--hospital-green);
-    
+    background-color: var(--white);
 }
 
-
+.sign{
+    color: var(--hospital-green);
+    margin-top: 100%;
+    border: 1px solid var(--hospital-green);
+}
