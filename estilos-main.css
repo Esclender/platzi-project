@@ -71,11 +71,20 @@ html{
     border-radius: 8px;
     border: none;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .login{
     background-color: var(--hospital-green);
+    
+    
+}
+
+.login a{
+    width: 100%;
+    text-decoration: none;
     color: var(--white);
+    font-weight: bold;
 }
 
 .forgot{
