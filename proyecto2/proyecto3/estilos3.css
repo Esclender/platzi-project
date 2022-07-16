@@ -79,10 +79,15 @@ html{
     
 }
 
-.login{
+.login {
     background-color: var(--hospital-green);
+    
+}
+
+.login a{
     color: var(--white);
     font-weight: bold;
+    text-decoration: none;
 }
 
 .resend__container{
