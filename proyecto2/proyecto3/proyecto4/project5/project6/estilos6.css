@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+:root{
+    --very-light-pink:#C7C7C7;
+    --white: #fff;
+    --text-input-field: #f7f7f7;
+    --black: #000;
+    --hospital-green: #acd9b2;
+    --dark: #232830;
+    --lg: 1.8rem;
+    --md: 1.6rem;
+    --sm: 1.4rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header__container{
+    border: 1px solid var(--very-light-pink);
+}
+
+.nav-bar{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.search-bar{
+    padding: 1rem;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+i{
+    position: absolute;
+    padding: 1.8rem ;
+    transform: scale(2);
+    color: var(--very-light-pink);
+}
+
+input{
+    color: var(--very-light-pink);
+    width: 100%;
+    padding: 1.3rem 5rem;
+    font-size: var(--lg);
+    border-radius: 8px;
+    border: none;
+    background-color: var(--text-input-field);
+}
+
+.categories{
+    padding: 1rem;
+    display: flex;
+    font-size: var(--md);
+}
+
+.c-1{
+    color: var(--hospital-green);
+    border-radius: 8px;
+    border: 1px solid var(--hospital-green);
+}
+
+.categories span{
+    padding: .5rem 1.5rem;
+    color: var(--very-light-pink);
+}
+
+.order-way{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#list{
+    border: none;
+}
+
+.item{
+    margin: 1.3rem;
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+
+
+.main-image img{
+    width: 16rem;
+    border-radius: 8px;
+    border-radius: 10%;
+    
+}
+
+
+
+.info{
+   display: flex;
+   justify-content: space-between;
+   padding: .5rem;
+}
+
+
+.description > span:first-child{
+    color: var(--dark);
+    font-size: var(--lg);
+    font-weight: bold;
+}
+
+.description > span:nth-child(3){
+    color: var(--very-light-pink);
+    font-size: var(--sm);
+    margin-top: 0;
+}
+
+.cart{
+    position: relative;
+}
+
+.buy{
+    position: absolute;
+    right: 0;
+    transform: scale(1);
+    z-index: 10;
+}
+
+.added{
+    position: absolute;
+    right: 0; 
+    transform: scale(1.15); 
+}
+
+
+
+.buy:active + .added{
+    z-index: 30;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

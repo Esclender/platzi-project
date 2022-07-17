@@ -21,6 +21,10 @@ html{
     font-size: 62.5%;
 }
 
+.header__container{
+    border: 1px solid var(--very-light-pink);
+}
+
 .nav-bar{
     margin: 1.5rem;
     display: flex;
@@ -37,6 +41,7 @@ html{
 }
 
 .main-content{
+    
     padding: 1.5rem;
 }
 
